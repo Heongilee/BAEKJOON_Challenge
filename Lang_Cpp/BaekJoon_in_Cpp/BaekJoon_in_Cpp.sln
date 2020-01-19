@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.960
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BaekJoon_in_Cpp", "BaekJoon_in_Cpp\BaekJoon_in_Cpp.vcxproj", "{166B37B3-DB42-44BE-8981-2F3B6756A725}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[11729]rHanoi_Tower", "[11729]rHanoi_Tower\[11729]rHanoi_Tower.vcxproj", "{DA8CD7A9-715E-42D1-86AB-ADA9FFFDE637}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{166B37B3-DB42-44BE-8981-2F3B6756A725}.Release|x64.Build.0 = Release|x64
 		{166B37B3-DB42-44BE-8981-2F3B6756A725}.Release|x86.ActiveCfg = Release|Win32
 		{166B37B3-DB42-44BE-8981-2F3B6756A725}.Release|x86.Build.0 = Release|Win32
+		{DA8CD7A9-715E-42D1-86AB-ADA9FFFDE637}.Debug|x64.ActiveCfg = Debug|x64
+		{DA8CD7A9-715E-42D1-86AB-ADA9FFFDE637}.Debug|x64.Build.0 = Debug|x64
+		{DA8CD7A9-715E-42D1-86AB-ADA9FFFDE637}.Debug|x86.ActiveCfg = Debug|Win32
+		{DA8CD7A9-715E-42D1-86AB-ADA9FFFDE637}.Debug|x86.Build.0 = Debug|Win32
+		{DA8CD7A9-715E-42D1-86AB-ADA9FFFDE637}.Release|x64.ActiveCfg = Release|x64
+		{DA8CD7A9-715E-42D1-86AB-ADA9FFFDE637}.Release|x64.Build.0 = Release|x64
+		{DA8CD7A9-715E-42D1-86AB-ADA9FFFDE637}.Release|x86.ActiveCfg = Release|Win32
+		{DA8CD7A9-715E-42D1-86AB-ADA9FFFDE637}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
