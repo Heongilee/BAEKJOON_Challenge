@@ -3,19 +3,19 @@ package Default_Package;
 import java.util.Scanner;
 
 public class Main {
-	public static int fibo(int N) {
-		if(N == 0) return 0;
-		if(N == 1) return 1;
-		else return fibo(N - 1) + fibo(N - 2);
+	public static void add(int a, int b) {
+		System.out.println("Function 1 is called...");
+	}
+	public static void add(double a, double b) {
+		System.out.println("Function 2 is called...");
+		
+	}
+	public static int add(int a, int b) {
+		System.out.println("Function 3 is called...");
+		
 	}
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int N;
-		
-		N = sc.nextInt();
-		
-		System.out.println(fibo(N));
-		
-		sc.close();
+		add(1, 2);
+		add(3.1, 4.2);
 	}
 }
