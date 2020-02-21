@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[11729]rHanoi_Tower", "[117
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[2798]BlackJack", "[2798]BlackJack\[2798]BlackJack.vcxproj", "{B40E6C0C-0E87-4359-B9DD-8498DBF922DD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Q1463_", "Q1463_\Q1463_.vcxproj", "{EC4F024D-E26C-4B99-9DB7-324EC863E77C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{B40E6C0C-0E87-4359-B9DD-8498DBF922DD}.Release|x64.Build.0 = Release|x64
 		{B40E6C0C-0E87-4359-B9DD-8498DBF922DD}.Release|x86.ActiveCfg = Release|Win32
 		{B40E6C0C-0E87-4359-B9DD-8498DBF922DD}.Release|x86.Build.0 = Release|Win32
+		{EC4F024D-E26C-4B99-9DB7-324EC863E77C}.Debug|x64.ActiveCfg = Debug|x64
+		{EC4F024D-E26C-4B99-9DB7-324EC863E77C}.Debug|x64.Build.0 = Debug|x64
+		{EC4F024D-E26C-4B99-9DB7-324EC863E77C}.Debug|x86.ActiveCfg = Debug|Win32
+		{EC4F024D-E26C-4B99-9DB7-324EC863E77C}.Debug|x86.Build.0 = Debug|Win32
+		{EC4F024D-E26C-4B99-9DB7-324EC863E77C}.Release|x64.ActiveCfg = Release|x64
+		{EC4F024D-E26C-4B99-9DB7-324EC863E77C}.Release|x64.Build.0 = Release|x64
+		{EC4F024D-E26C-4B99-9DB7-324EC863E77C}.Release|x86.ActiveCfg = Release|Win32
+		{EC4F024D-E26C-4B99-9DB7-324EC863E77C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
