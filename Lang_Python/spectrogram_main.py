@@ -16,17 +16,13 @@ voice_listdir = os.listdir(voice_path)
 # 디렉토리 내부의 파일 갯수
 listdir_number = len(voice_listdir)
 
-my_idx = 9
-# wav 파일 갯수만큼 순회
-for n in range(listdir_number):
-    # from wav 파일 경로 지정.
-    wav_file_path = voice_path + '이헌기_숫자' + str(my_idx) + '.wav'
-    # to jpeg  파일 경로 지정.
-    postprocessing_image_path = abspath_path + '/asset/images/이헌기_숫자' + str(my_idx) + '.png'
-    # wav 파일을 읽어 들임.
-    sample_frequency, signalData = wavfile.read(wav_file_path)
-    plt.specgram(signalData, Fs=sample_frequency)
-    # 0 ~ 1초, 0 ~ 10000Hz 까지 표시.
-    # plt.axis([0, 1, 0, 10000])
-    
-    plt.savefig(postprocessing_image_path)
+my_idx = 0
+# from wav 파일 경로 지정.
+wav_file_path = voice_path + str(my_idx) + '.wav'
+# to jpeg  파일 경로 지정.
+postprocessing_image_path = abspath_path + '/asset/images/' + str(my_idx) + '.png'
+# wav 파일을 읽어 들임.
+sample_frequency, signalData = wavfile.read(wav_file_path)
+plt.specgram(signalData, Fs=sample_frequency)
+
+plt.savefig(postprocessing_image_path)
